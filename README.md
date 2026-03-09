@@ -4,6 +4,7 @@
 The UDD-CPE Blog Website is a modern content management platform tailored for the academic and professional community at Universidad de Dagupan. It bridges the gap between static reading and dynamic content administration, allowing for seamless article management through a centralized interface.
 
 📌 Features
+
 📝 Create Posts – Admin can publish new blog articles
 📖 Read Posts – Users can view and browse blog content
 ✏️ Update Posts – Admin can edit existing articles
