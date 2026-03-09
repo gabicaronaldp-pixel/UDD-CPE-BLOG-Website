@@ -3,42 +3,43 @@
 ---
 The UDD-CPE Blog Website is a modern content management platform tailored for the academic and professional community at Universidad de Dagupan. It bridges the gap between static reading and dynamic content administration, allowing for seamless article management through a centralized interface.
 
-## 📌 Features
-
-- 📝 Create Posts – Admin can publish new blog articles
-- 📖 Read Posts – Users can view and browse blog content
-- ✏️ Update Posts – Admin can edit existing articles
-- 🗑 Delete Posts – Remove outdated or unwanted blog posts
-- 💬 Feedback System – Users can submit feedback
-- 📱 Responsive Design – Works on desktop, tablet, and mobile devices
-- ☁️ Firebase Integration – Uses Firebase for database and hosting
-
-<img width="1916" height="907" alt="image" src="https://github.com/user-attachments/assets/29dbaf08-7fc5-419b-a04f-5871458ad070" />
 
 
-<img width="1918" height="921" alt="image" src="https://github.com/user-attachments/assets/56a1b8bc-c860-4662-bca9-dbb71e33157f" />
+
+
 
 (https://github.com/gabicaronaldp-pixel/UDD-CPE-BLOG-Website)
 
 ---
 
-Core Functionalities
-The platform is built on the CRUD (Create, Read, Update, Delete) architecture, ensuring complete control over the blog's lifecycle:
+CORE FUNCTIONALITIES:
 
-Content Creation: A dedicated administrative portal for drafting and publishing new articles.
+Project Showcase: A dedicated gallery or list displaying personal and professional software projects, often including descriptions, role details, and links to live demos or source code.
 
-Dynamic Readership: A clean, engaging user interface for visitors to explore and read blog posts.
+Skill Visualization: A section highlighting technical proficiencies (e.g., Languages, Frameworks, Tools) using icons or progress bars to give visitors a quick overview of the developer's stack.
 
-Administrative Management: Tools for editing existing content to keep it current or deleting posts that are no longer relevant.
+About Me & Career Summary: A narrative section detailing the developer's background, education, and professional journey.
 
-User Engagement: A specialized feedback system where readers can share their thoughts and interact with the content.
+Contact & Lead Generation: A functional contact form or direct links to professional socials (LinkedIn, GitHub) to facilitate recruitment or collaboration inquiries.
 
-Technical Implementation
-Architecture: The system is divided into four distinct modules: the User Viewing Interface, the Admin Dashboard, the Post Editing Interface, and the Feedback Submission Page.
+Resume Accessibility: An integrated viewer or a direct download link for a professional CV/Resume.
 
-Cloud Integration: Leverages Firebase for robust backend database management and high-performance hosting.
+TECHNICAL IMPLEMENTATION:
 
-Adaptive Design: Features a fully responsive UI, ensuring a seamless experience across mobile, tablet, and desktop devices.
+-Hosting & Backend: Firebase Hosting:
+The .web.app suffix indicates the site is hosted on Google Firebase.
+Firebase Functions may be used to handle contact form submissions via email (e.g., using Nodemailer).
+
+-Frontend Framework: React.js or Vue.js
+Most modern developer portfolios on Firebase are built as Single Page Applications (SPAs) using React or Vue for fast, component-based rendering.
+
+-Styling: Tailwind CSS or Styled Components
+Likely utilizes a utility-first CSS framework (Tailwind) or CSS-in-JS for modern, maintainable styling.
+
+-Deployment Pipeline: * Probably integrated with GitHub Actions, allowing for "Continuous Deployment" (CD) where every code push to GitHub automatically updates the live website.
+
+-Data Management:
+Project data is likely stored in a local JSON file within the project or fetched dynamically from Firebase Firestore if the owner wants to update projects without redeploying code.
 
 ---
 
