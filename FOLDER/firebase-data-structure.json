@@ -1,0 +1,28 @@
+{
+    "posts": {
+        "post_id_1": {
+            "title": "The Future of Quantum Computing",
+            "content": "Full content here...",
+            "author": "Dr. Aris Thorne",
+            "category": "Quantum Computing",
+            "status": "Published",
+            "views": 1240,
+            "created_at": "2024-03-03T12:00:00Z",
+            "image_url": "https://url-to-image.com"
+        }
+    },
+    "comments": {
+        "post_id_1": {
+            "comment_id_1": {
+                "author": "Alex Rivers",
+                "designation": "CPE Student",
+                "content": "Great insight!",
+                "created_at": "2024-03-03T12:05:00Z"
+            }
+        }
+    },
+    "stats": {
+        "subscribers": 1240,
+        "total_views": 50000
+    }
+}

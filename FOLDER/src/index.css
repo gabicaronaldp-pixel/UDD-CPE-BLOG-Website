@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  
+  --color-primary: #135bec;
+  --color-background-dark: #101622;
+  --color-background-light: #f6f6f8;
+  
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background-dark text-slate-100 font-sans antialiased;
+  }
+}
+
+.markdown-body h1 { @apply text-3xl font-bold mb-4 mt-8; }
+.markdown-body h2 { @apply text-2xl font-bold mb-3 mt-6; }
+.markdown-body h3 { @apply text-xl font-bold mb-2 mt-4; }
+.markdown-body p { @apply mb-4 leading-relaxed text-slate-300; }
+.markdown-body blockquote { @apply border-l-4 border-primary pl-4 italic my-6 text-slate-400; }
+.markdown-body ul { @apply list-disc pl-6 mb-4; }
+.markdown-body ol { @apply list-decimal pl-6 mb-4; }
+.markdown-body code { @apply bg-slate-800 px-1.5 py-0.5 rounded text-sm font-mono; }
+.markdown-body pre { @apply bg-slate-900 p-4 rounded-lg overflow-x-auto mb-4 border border-slate-800; }
+.markdown-body img { @apply rounded-xl my-8 w-full; }
