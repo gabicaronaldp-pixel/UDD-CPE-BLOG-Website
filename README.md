@@ -16,10 +16,9 @@ The UDD-CPE Blog Website is a modern content management platform tailored for th
 <img width="1916" height="907" alt="image" src="https://github.com/user-attachments/assets/29dbaf08-7fc5-419b-a04f-5871458ad070" />
 
 
-(https://github.com/gabicaronaldp-pixel/UDD-CPE-BLOG-Website)
 <img width="1918" height="921" alt="image" src="https://github.com/user-attachments/assets/56a1b8bc-c860-4662-bca9-dbb71e33157f" />
 
-
+(https://github.com/gabicaronaldp-pixel/UDD-CPE-BLOG-Website)
 
 ---
 
