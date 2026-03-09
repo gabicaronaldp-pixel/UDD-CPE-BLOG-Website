@@ -6,11 +6,17 @@ The UDD-CPE Blog Website is a modern content management platform tailored for th
 📌 Features
 
 📝 Create Posts – Admin can publish new blog articles
+
 📖 Read Posts – Users can view and browse blog content
+
 ✏️ Update Posts – Admin can edit existing articles
+
 🗑 Delete Posts – Remove outdated or unwanted blog posts
+
 💬 Feedback System – Users can submit feedback
+
 📱 Responsive Design – Works on desktop, tablet, and mobile devices
+
 ☁️ Firebase Integration – Uses Firebase for database and hosting
 
 
